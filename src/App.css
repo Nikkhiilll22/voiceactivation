@@ -1,0 +1,56 @@
+
+/* Full screen black background */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  background: black !important;
+  height: 100%;
+}
+
+/* Center the circle */
+.voice-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Big glowing animated circle */
+.pulse-circle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 10px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.1s linear;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.4);
+}
+
+.mic-btn {
+  margin-top: 500px;
+  margin-left: -230px;
+  padding: 14px 32px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.mic-btn.on {
+  background: #00c853;
+  color: white;
+  box-shadow: 0 0 15px #00c853;
+}
+
+.mic-btn.off {
+  background: #d50000;
+  color: white;
+  box-shadow: 0 0 15px #d50000;
+}
+
+
