@@ -1,4 +1,4 @@
-# Voice activation and ripple
+# Voice activation and ripple effect
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
